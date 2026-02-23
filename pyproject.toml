@@ -1,0 +1,16 @@
+[project]
+name = "nlp-avito"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "accelerate>=1.12.0",
+    "datasets>=4.0.0",
+    "ipykernel>=7.2.0",
+    "ipywidgets>=8.1.8",
+    "seqeval>=1.2.2",
+    "torch>=2.10.0",
+    "transformers>=5.2.0",
+    "wandb>=0.25.0",
+]
